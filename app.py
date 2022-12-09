@@ -94,16 +94,10 @@ if (selected == 'University Rank Prediction'):
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        age = st.text_input('TLR - 0.3')
+        age = st.text_input('TLR ')
         
     with col2:
-        sex = st.text_input('FSR - 30')
-        
-    with col3:
-        cp = st.text_input('FQE - 20')
-        
-    with col1:
-        trestbps = st.text_input('FRU - 30')
+        sex = st.text_input('Research Practice')
         
     with col2:
         chol = st.text_input('GO - 100')
