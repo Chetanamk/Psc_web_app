@@ -89,7 +89,7 @@ if (selected == 'Diabetes Prediction'):
 if (selected == 'University Rank Prediction'):
     
     # page title
-    st.title('Heart Disease Prediction using ML')
+    st.title('Higher education Institute Rank Prediction using ML')
     
     col1, col2, col3 = st.columns(3)
     
@@ -114,23 +114,7 @@ if (selected == 'University Rank Prediction'):
     with col1:
         restecg = st.text_input('OI - 100')
         
-    with col2:
-        thalach = st.text_input('Maximum Heart Rate achieved')
-        
-    with col3:
-        exang = st.text_input('Exercise Induced Angina')
-        
-    with col1:
-        oldpeak = st.text_input('ST depression induced by exercise')
-        
-    with col2:
-        slope = st.text_input('Slope of the peak exercise ST segment')
-        
-    with col3:
-        ca = st.text_input('Major vessels colored by flourosopy')
-        
-    with col1:
-        thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
+
         
         
      
