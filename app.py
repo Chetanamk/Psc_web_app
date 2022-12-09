@@ -25,9 +25,9 @@ with st.sidebar:
     
     selected = option_menu('Multiple Disease Prediction System',
                           
-                          ['Diabetes Prediction',
-                           'Heart Disease Prediction',
-                           'Parkinsons Prediction'],
+                          ['Prediction',
+                           'University Rank Prediction',
+                           'Prediction'],
                           icons=['activity','heart','person'],
                           default_index=0)
     
@@ -36,7 +36,7 @@ with st.sidebar:
 if (selected == 'Diabetes Prediction'):
     
     # page title
-    st.title('Diabetes Prediction using ML')
+    st.title('University Rank Prediction  using ML')
     
     
     # getting the input data from the user
@@ -86,7 +86,7 @@ if (selected == 'Diabetes Prediction'):
 
 
 # Heart Disease Prediction Page
-if (selected == 'Heart Disease Prediction'):
+if (selected == 'University Rank Prediction'):
     
     # page title
     st.title('Heart Disease Prediction using ML')
